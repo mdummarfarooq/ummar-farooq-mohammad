@@ -1128,3 +1128,10 @@ a {
     grid-column: span 1;
   }
 }
+.icon-circle svg {
+  width: 22px;
+  height: 22px;
+  color: #00e5ff;
+  stroke: #00e5ff;
+  fill: #00e5ff; /* Fills LinkedIn & GitHub solid shapes */
+}
