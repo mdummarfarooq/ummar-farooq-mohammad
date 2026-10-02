@@ -1039,3 +1039,92 @@ a {
     scroll-behavior: auto !important;
   }
 }
+/* --- Contact Section Styles --- */
+.contact-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contact-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Card Container */
+.contact-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #0b1726; /* Dark navy card background */
+  border: 1px solid #162a3f;
+  border-radius: 14px;
+  padding: 22px 26px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.contact-box:hover {
+  border-color: #00d2d3;
+  transform: translateY(-2px);
+}
+
+.contact-box.full-width {
+  grid-column: span 2;
+}
+
+/* Square Rounded Icon Badge */
+.icon-circle {
+  width: 52px;
+  height: 52px;
+  background-color: #0b3447; /* Muted teal/cyan box */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-circle svg,
+.icon-circle i {
+  width: 24px;
+  height: 24px;
+  stroke: #00e5ff; /* Bright cyan icon */
+  stroke-width: 2.2;
+}
+
+/* Label & Text */
+.box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow: hidden;
+}
+
+.box-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #7b8e9e;
+  text-transform: uppercase;
+}
+
+.box-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Responsive breakpoint for mobile */
+@media (max-width: 768px) {
+  .contact-details-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-box.full-width {
+    grid-column: span 1;
+  }
+}
