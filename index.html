@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Mohammad Ummar Farooq – Computer Science Engineer & Data Science Practitioner specializing in Python, ML, NLP, and Web Technologies.">
+  <meta name="author" content="Mohammad Ummar Farooq">
+  <title>Mohammad Ummar Farooq | Computer Science & Data Science Portfolio</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" aria-label="Main Navigation">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Home">
+        <span class="monogram">UF</span>
+        <span class="brand-text">Farooq<span class="dot">.</span></span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-item">
+          <a href="assets/resume.pdf" class="btn btn-outline nav-btn" download aria-label="Download Resume PDF">
+            <i data-lucide="file-down"></i> Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-indicator"></span>
+            Available for Engineering & Data Science Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Mohammad Ummar Farooq</span>
+          </h1>
+          <p class="hero-subtitle">
+            Computer Science undergraduate (CSD) focused on predictive machine learning pipelines, natural language processing, and responsive web technologies.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <i data-lucide="map-pin"></i>
+              <span>India</span>
+            </div>
+            <div class="meta-item">
+              <i data-lucide="graduation-cap"></i>
+              <span>B.Tech in CSE (CSD)</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore Projects <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-secondary" download>
+              <i data-lucide="download"></i> Download Resume
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="mailto:Mdummarfarooq6@gmail.com" class="social-link" aria-label="Email Mohammad Ummar Farooq">
+              <i data-lucide="mail"></i>
+            </a>
+            <a href="tel:+918374188634" class="social-link" aria-label="Phone Call">
+              <i data-lucide="phone"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://gitlab.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitLab Profile">
+              <i data-lucide="git-branch"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-terminal">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">farooq@analytics-core:~</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line"><span class="prompt">$</span> python run_pipeline.py</p>
+              <p class="terminal-response green-text">> Initializing predictive pipeline...</p>
+              <p class="terminal-response">> Models: Demand_Forecaster(ML), Recipe_NLP(TF-IDF)</p>
+              <p class="terminal-response">> Databases: MySQL Connected</p>
+              <p class="terminal-response">> Visualization: Tableau & Modern UI</p>
+              <p class="terminal-response cyan-text">> Status: Ready for Production & Deployment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Overview</p>
+          <h2 class="section-title">Professional Profile</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-about">
+            <h3>Bridging Computational Logic & Analytical Insight</h3>
+            <p>
+              I am a Bachelor of Technology candidate in Computer Science (CSD) at Balaji Institute of Technology & Science (2022–2026). My technical foundation combines practical knowledge of core programming in Python and Java with hands-on application in predictive machine learning, natural language processing, and full-stack web building blocks.
+            </p>
+            <p>
+              Through formal course tracks, applied projects, and virtual industry internships with AICTE, I develop solutions addressing practical real-world problems—from forecasting inventory demand risks to building intelligent NLP recommendations.
+            </p>
+            <blockquote class="about-declaration">
+              "I hereby assert that the information given is exact to the best of my knowledge and belief."
+            </blockquote>
+          </div>
+
+          <div class="about-stat-column">
+            <div class="stat-card">
+              <span class="stat-number">7.15</span>
+              <span class="stat-label">Engineering CGPA (B.Tech CSD)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">97%</span>
+              <span class="stat-label">10th Grade Board Distinction</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">2+</span>
+              <span class="stat-label">Core Machine Learning Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Capabilities</p>
+          <h2 class="section-title">Technical Skills & Tooling</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="code-2"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Python (Intermediate)</span>
+              <span class="skill-tag">Java (Basic)</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="database"></i>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">MySQL</span>
+              <span class="skill-tag">Relational Data Queries</span>
+            </div>
+          </div>
+
+          <!-- Data Science & Analytics -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="line-chart"></i>
+              <h3>Data & Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Machine Learning</span>
+              <span class="skill-tag highlight">Tableau</span>
+              <span class="skill-tag">Natural Language Processing (NLP)</span>
+              <span class="skill-tag">Data Visualization</span>
+            </div>
+          </div>
+
+          <!-- Web Technologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <i data-lucide="layout"></i>
+              <h3>Web Technologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">Responsive Interfaces</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Case Studies</p>
+          <h2 class="section-title">Featured Engineering Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-badge">Machine Learning / Supply Chain</span>
+              <div class="project-links">
+                <a href="https://gitlab.com" target="_blank" rel="noopener noreferrer" aria-label="GitLab Repository"><i data-lucide="git-branch"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Inventory Demand Forecasting Using Machine Learning</h3>
+            <p class="project-description">
+              Developed a predictive modeling framework engineered to project future product consumption based on historical sales metrics and ongoing stock volume cycles. Designed to support proactive inventory planning, significantly mitigating the twin risks of warehouse overstocking and costly stock-outs.
+            </p>
+            <div class="project-key-points">
+              <div class="point-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Analyzed historical sales patterns and demand variations over time.</span>
+              </div>
+              <div class="point-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Enhanced stock management accuracy to protect working capital.</span>
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Python</span>
+              <span>Machine Learning</span>
+              <span>Predictive Modeling</span>
+              <span>Data Analysis</span>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-badge">NLP / Recommendation Engines</span>
+              <div class="project-links">
+                <a href="https://gitlab.com" target="_blank" rel="noopener noreferrer" aria-label="GitLab Repository"><i data-lucide="git-branch"></i></a>
+              </div>
+            </div>
+            <h3 class="project-title">Personalizing Recipe Recommendation Using NLP Models</h3>
+            <p class="project-description">
+              Built an intelligent recipe matching and filtering system driven by Natural Language Processing. The solution evaluates dynamic multi-attribute user inputs—including current available ingredients, taste parameters, and strict dietary preferences—processing raw culinary text to compute similarity scores.
+            </p>
+            <div class="project-key-points">
+              <div class="point-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Text processing pipeline handling custom ingredient queries.</span>
+              </div>
+              <div class="point-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Similarity algorithms delivering high-relevance personal diet matches.</span>
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>Text Similarity</span>
+              <span>Recommendation Systems</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Career History</p>
+          <h2 class="section-title">Internships & Professional Exposure</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="role-title">Data Science Virtual Intern</h3>
+                  <h4 class="organization-title">AICTE (All India Council for Technical Education)</h4>
+                </div>
+                <span class="timeline-tag">Project-Based Internship</span>
+              </div>
+              <p class="role-summary">
+                Completed an intensive project-centric virtual internship centered on foundational and applied Data Science methodologies utilizing Python.
+              </p>
+              <ul class="role-bullets">
+                <li>Acquired structured proficiency in data manipulation, descriptive statistics, and core Python data libraries.</li>
+                <li>Participated in hands-on practice labs and experimental workflows modeling real-world domain datasets.</li>
+                <li>Applied foundational algorithms to practical data transformation and discovery workflows.</li>
+              </ul>
+              <div class="role-tech">
+                <span>Python</span>
+                <span>Data Science</span>
+                <span>Practice Labs</span>
+                <span>Analytical Modeling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Academic Background</p>
+          <h2 class="section-title">Education</h2>
+        </div>
+
+        <div class="education-grid">
+          <div class="education-card highlight-card">
+            <div class="edu-period">2022 — 2026</div>
+            <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+            <h4 class="edu-specialization">Computer Science & Engineering (CSD)</h4>
+            <p class="edu-institution">Balaji Institute of Technology & Science</p>
+            <div class="edu-score-badge">
+              <span>CGPA: 7.15</span>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="edu-period">2020 — 2022</div>
+            <h3 class="edu-degree">Intermediate Education</h3>
+            <h4 class="edu-specialization">MPC (Mathematics, Physics, Chemistry)</h4>
+            <p class="edu-institution">Sree Sai Junior College</p>
+            <div class="edu-score-badge">
+              <span>Score: 47%</span>
+            </div>
+          </div>
+
+          <div class="education-card">
+            <div class="edu-period">2019 — 2020</div>
+            <h3 class="edu-degree">Secondary School Certificate (10th Grade)</h3>
+            <h4 class="edu-specialization">High School Curriculum</h4>
+            <p class="edu-institution">Teja International High School</p>
+            <div class="edu-score-badge">
+              <span>Score: 97%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-alt" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">Credentials</p>
+          <h2 class="section-title">Professional Certifications</h2>
+        </div>
+
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i data-lucide="award"></i>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Python Programming</h3>
+              <p class="cert-issuer">CodeTantra</p>
+              <p class="cert-detail">Verified competence in Python data structures, algorithms, and modular scripting.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon-wrapper">
+              <i data-lucide="award"></i>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">HTML & CSS Bootcamp Certification</h3>
+              <p class="cert-issuer">Bootcamp Program</p>
+              <p class="cert-detail">Comprehensive training on semantic layouts, styling standards, and responsive web design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-tag">Get In Touch</p>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-lead">
+            Open to entry-level engineering roles, data science positions, and technical collaborations.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-details-grid">
+            <a href="mailto:Mdummarfarooq6@gmail.com" class="contact-box">
+              <div class="icon-circle"><i data-lucide="mail"></i></div>
+              <div class="box-content">
+                <span class="box-label">Email</span>
+                <span class="box-value">Mdummarfarooq6@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="tel:+918374188634" class="contact-box">
+              <div class="icon-circle"><i data-lucide="phone"></i></div>
+              <div class="box-content">
+                <span class="box-label">Phone</span>
+                <span class="box-value">+91 8374188634</span>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-box">
+              <div class="icon-circle"><i data-lucide="linkedin"></i></div>
+              <div class="box-content">
+                <span class="box-label">LinkedIn</span>
+                <span class="box-value">Connect on LinkedIn</span>
+              </div>
+            </a>
+
+            <a href="https://gitlab.com" target="_blank" rel="noopener noreferrer" class="contact-box">
+              <div class="icon-circle"><i data-lucide="git-branch"></i></div>
+              <div class="box-content">
+                <span class="box-label">GitLab</span>
+                <span class="box-value">Explore Repositories</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="monogram-small">UF</span>
+        <span>Mohammad Ummar Farooq</span>
+      </div>
+      <p class="footer-copy">
+        &copy; <span id="currentYear"></span> Mohammad Ummar Farooq. All rights reserved.
+      </p>
+      <div class="footer-links">
+        <a href="#hero">Back to Top <i data-lucide="chevron-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+</body>
+</html>
